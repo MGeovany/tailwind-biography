@@ -1,15 +1,15 @@
-import React from "react";
-import { Github, Instagram, Linkedin } from "./Home";
+import React from 'react'
+import { Github, Instagram, Linkedin } from './Home'
 
 export const Contact = () => {
   return (
-    <div className="text-white bg-gray-900 opacity-90 pb-20 flex flex-col justify-center items-center mt-52">
+    <div className="text-white bg-slate-800 opacity-90 p-52 flex flex-col justify-center items-center mt-52 ">
       <div className="flex items-center flex-col justify-center ">
         <h1 className="font-bold text-3xl mt-24 my-10" id="contact">
           Get In Touch 👨‍💻
         </h1>
         <h2 className="text-3xl my-7 flex justify-start pt-5 pb-7 font-medium">
-          Let's talk about bussiness
+          Let&apos;s talk about bussiness
         </h2>
       </div>
 
@@ -30,7 +30,7 @@ export const Contact = () => {
         <div className="flex flex-row justify-center space-x-4">
           <a
             href="https://www.linkedin.com/in/m-geovany-web-developer/"
-            target="_blank"
+            target="_blank" rel="noreferrer"
           >
             <Linkedin
               width={24}
@@ -39,7 +39,7 @@ export const Contact = () => {
               fill="white"
             />
           </a>
-          <a href="https://github.com/MGeovany" target="_blank">
+          <a href="https://github.com/MGeovany" target="_blank" rel="noreferrer">
             <Github
               width={24}
               height={24}
@@ -47,7 +47,7 @@ export const Contact = () => {
               fill="white"
             />
           </a>
-          <a href="https://www.instagram.com/m_geovany_/" target="_blank">
+          <a href="https://www.instagram.com/m_geovany_/" target="_blank" rel="noreferrer">
             <Instagram
               width={24}
               height={24}
@@ -59,5 +59,5 @@ export const Contact = () => {
       </div>
       <div className="grid grid-rows-1 justify-center items-center"></div>
     </div>
-  );
-};
+  )
+}
